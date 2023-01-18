@@ -1,0 +1,16 @@
+.Artworks {
+ width: 100%;
+ padding-top: 110px;
+}
+
+.my-masonry-grid {
+ display: -webkit-box; /* Not needed if autoprefixing */
+ display: -ms-flexbox; /* Not needed if autoprefixing */
+ display: flex;
+ width: auto;
+}
+
+/* Style your items */
+.my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
+ /* margin-bottom: -30px; */
+}

@@ -1,0 +1,66 @@
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  z-index: 1;
+  border-bottom: solid 2px rgba(0, 0, 0, 0.5);
+  gap: 30px;
+  font-size: large;
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.header-section-one {
+  padding-left: 20px;
+  min-width: 50%;
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+}
+
+.header-section-two {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.harvard-logo {
+  height: inherit;
+  padding-inline-end: 40px;
+}
+
+.Header a {
+  display: inline-block;
+  position: relative;
+}
+
+.Header a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.Header a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.InputLabel {
+  height: 30px;
+}

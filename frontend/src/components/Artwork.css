@@ -1,0 +1,74 @@
+.Artwork {
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ text-align: center;
+ /* padding-bottom: 30px; */
+}
+
+.Artwork:hover {
+ background-color: rgba(128, 128, 128, 0.046);
+}
+
+.Artwork-info {
+ margin-bottom: -40px;
+}
+
+.title {
+ font-size: 18px;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ margin-top: 10px;
+}
+
+p {
+ margin: 5px;
+ font-size: 16px;
+ letter-spacing: 1px;
+}
+
+.year {
+ margin: 5px;
+ font-size: 16px;
+ color: rgba(0, 0, 0, 0.6);
+}
+
+.Artwork .artwork-img {
+ max-width: 80%;
+ padding-bottom: 20px;
+}
+
+.Artwork button {
+ width: 40px;
+ height: 40px;
+ position: relative;
+ left: 110px;
+ bottom: 55px;
+ filter: opacity(60%);
+ cursor: pointer;
+ border-radius: 20px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border: unset;
+ background-color: transparent;
+}
+
+.Artwork button:hover {
+ filter: opacity(90%);
+ background-color: rgba(255, 255, 255, 0.6);
+ transform: scale(1.5)
+}
+
+.Artwork .pinImg {
+ width: inherit;
+ padding: 0;
+ width: 140%;
+ filter: drop-shadow(0 0 1px rgb(0, 0, 0));
+}
+
+.Artwork .pinImg:hover {
+filter: unset;
+}
