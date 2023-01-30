@@ -1,14 +1,6 @@
 ﻿## Artworks
-Using Harvard Art Museum API.
-
-
-UX
- - list page with artworks
-	- browser (filter, search function)
- - each artwork has an own site with their details
-	- saving and filter favorite artworks (local store)
-
-	Frameworks
-	- Material UI
-	- Masonry
-	- React Router
+Duo-project. The user can browse between the fetched artworks of Harvard Museum API with using different filter functions like searching for name or filtering artwork type, etc. Each artwork has its own page of details. The favorite artworks can be saved and stored in local store.  Features we used:
+- Material UI
+- Masonry
+- React Router
+- Local store (save favorites)
